@@ -1,45 +1,27 @@
 const { PREFIX } = require(`${BASE_DIR}/config`);
-const axios = require('axios');
-const { WarningError } = require(`${BASE_DIR}/errors/WarningError`);
+const { gpt4 } = require(`${BASE_DIR}/services/spider-x-api`);
+const {
+  InvalidParameterError,
+} = require(`${BASE_DIR}/errors/InvalidParameterError`);
 
 module.exports = {
-  name: "gpt",
-  description: "Obtém uma resposta do ChatGPT a partir da mensagem fornecida",
-  commands: ["gpt"],
-  usage: `${PREFIX}gpt <pergunta>`,
-  handle: async ({
-    fullArgs,
-    sendWaitReact,
-    sendSuccessReact,
-    sendText,
-  }) => {
-    if (!fullArgs.length) {
-      throw new WarningError("Por favor, forneça uma pergunta para o ChatGPT.");
+  name: "gpt-4",
+  description: "Comandos de inteligência artificial!",
+  commands: ["gpt-4", "gpt", "takeshi"],
+  usage: `${PREFIX}gpt com quantos paus se faz uma canoa?`,
+  handle: async ({ sendSuccessReply, sendWaitReply, args }) => {
+    const text = args[0];
+
+    if (!text) {
+      throw new InvalidParameterError(
+        "Você precisa me dizer o que eu devo responder!"
+      );
     }
 
-    await sendWaitReact();
+    await sendWaitReply();
 
-    const apiKey = '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'; // Substitua pela sua chave da API do ChatGPT
-    const url = 'https://api.openai.com/v1/chat/completions';
+    const responseText = await gpt4(text);
 
-    try {
-      const response = await axios.post(url, {
-        model: 'gpt-3.5-turbo', // ou o modelo que você deseja usar
-        messages: [{ role: 'user', content: fullArgs.join(' ') }]
-      }, {
-        headers: {
-          'Authorization': `Bearer ${apiKey}`,
-          'Content-Type': 'application/json'
-        }
-      });
-
-      const gptResponse = response.data.choices[0].message.content;
-
-      await sendSuccessReact();
-      await sendText(gptResponse);
-    } catch (error) {
-      console.error('Erro ao chamar a API do ChatGPT:', error);
-      await sendText('Desculpe, não consegui obter uma resposta.');
-    }
+    await sendSuccessReply(responseText);
   },
 };
