@@ -19,41 +19,7 @@
         "match": "Juliano",
         "answer": " Esse cara é foda, mt inteligente "
     },
-    {
-        "match": "2infoA",
-        "answer": "turma a| segunda
-banco de dados
-interface web
-interface web
-intervalo
-computação em nuvem
-sistema web
-intervalo
-banco de dados
-ingles
-lmis
-|terça
-biologia
-quimica
-historia
-intervalo
-computaçao em nuvem
-educação fisica
-intervalo
-dispositivos moveis
-dispositivos moveis
-|quarta
-quimica
-fisica
-sistema web
-intervalo
-eacnt
-geografia
-intervalo
-geografia
-matematica
-"
-    },
+    
     {
         "match": "bom dia",
         "answer": " bom dia"
