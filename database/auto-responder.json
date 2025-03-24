@@ -45,8 +45,39 @@
         "answer": "boa tarde"
     },
     {
-        "match": "Vai se fuder",
+        "match": "Vai se fuder bot",
         "answer": "Vai voce resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
+    },
+    {
+        "match": "vsf bot",
+        "answer":"Vai voce resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
+    },
+    {
+        "match": "tomar no cu bot",
+        "answer":"Vai voce resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
+    },
+    {
+        "match": "tmnc bot",
+        "answer": "Vai voce resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
+    },
+    {
+        "match": "bot filho da puta",
+        "answer":"Vai tomar no cu resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
+    },
+    {
+        "match": "bot fdp",
+        "answer": "Vai se fuder resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
+    },
+    {
+        "match": "bot viado",
+        "answer": "Vai voce resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
+    
     }
     
 ]
