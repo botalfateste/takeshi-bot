@@ -3,10 +3,10 @@ const axios = require('axios');
 const { WarningError } = require(`${BASE_DIR}/errors/WarningError`);
 
 module.exports = {
-  name: "gpt",
+  name: "gpt-4",
   description: "Obtém uma resposta do ChatGPT a partir da mensagem fornecida",
   commands: ["gpt"],
-  usage: `${PREFIX}gpt <pergunta>`,
+  usage: `${PREFIX}gpt-4 <pergunta>`,
   handle: async ({
     fullArgs,
     sendWaitReact,
