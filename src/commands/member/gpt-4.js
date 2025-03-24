@@ -5,7 +5,7 @@ const { WarningError } = require(`${BASE_DIR}/errors/WarningError`);
 module.exports = {
   name: "gpt-4",
   description: "Obtém uma resposta do ChatGPT a partir da mensagem fornecida",
-  commands: ["gpt"],
+  commands: ["gpt-4"],
   usage: `${PREFIX}gpt-4 <pergunta>`,
   handle: async ({
     fullArgs,
