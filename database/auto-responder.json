@@ -8,7 +8,75 @@
         "answer": "Estou bem, obrigado por perguntar"
     },
     {
-        "match": "Qual seu nome",
-        "answer": "Meu nome é Takeshi Bot"
+        "match": "bot",
+        "answer": "Eu, use /menu por favor"
+    },
+    {
+        "match": "juliano",
+        "answer": "Esse cara é foda, mt inteligente  "
+    },
+    {
+        "match": "Juliano",
+        "answer": " Esse cara é foda, mt inteligente "
+    },
+    {
+        "match": "2infoA",
+        "answer": "turma a| segunda
+banco de dados
+interface web
+interface web
+intervalo
+computação em nuvem
+sistema web
+intervalo
+banco de dados
+ingles
+lmis
+|terça
+biologia
+quimica
+historia
+intervalo
+computaçao em nuvem
+educação fisica
+intervalo
+dispositivos moveis
+dispositivos moveis
+|quarta
+quimica
+fisica
+sistema web
+intervalo
+eacnt
+geografia
+intervalo
+geografia
+matematica
+"
+    },
+    {
+        "match": "bom dia",
+        "answer": " bom dia"
+    },
+    {
+        "match": "Bom dia",
+        "answer": " bom dia"
+    },
+    {
+        "match": "boa noite",
+        "answer": "boa noite, durma bem"
+    },
+    {
+        "match": "Boa noite",
+        "answer": "boa noite, durma bem"
+    },
+    {
+        "match": "boa tarde",
+        "answer": "boa tarde"
+    },
+    {
+        "match": "Boa tarde",
+        "answer": "boa tarde"
     }
+    
 ]
