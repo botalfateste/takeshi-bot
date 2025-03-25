@@ -1,5 +1,5 @@
 {
-  "name": "alfatestebot",
+  "name": "hollowbot",
   "version": "2.4.1",
   "description": "Um bot de WhatsApp multifunções.",
   "main": "./src/index.js",
