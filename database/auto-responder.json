@@ -78,6 +78,26 @@
         "match": "bot viado",
         "answer": "Vai voce resto de pentelho, pedaço de aborto, placenta maldita, zé do alho desgraçado, sua mãe é uma puta, seu pai é um corno, sua vó é vagabunda, teus tios são gays e suas tias são piranhas"
     
+    },
+    {
+        "match": "bot quem te criou",
+        "answer": "Eu sou fruto de uma vontade divina e o último herói da terra"
+    },
+    {
+        "match": "Bot quem criou voce",
+        "answer": "sou um protótipo do serjão foguetes!!!"
+    },
+    {
+        "match": "Onde está o meu pai?",
+        "answer": "ele foi comprar cigarros, ele tá localizado em um mottel na china"
+    },
+    {
+        "match": "Tudo bem?",
+        "answer": "Estou bem, obrigado por perguntar"
+    },
+    {
+        "match": "Tudo bem",
+        "answer": "Estou bem, obrigado por perguntar"
     }
     
 ]
