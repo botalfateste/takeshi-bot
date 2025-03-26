@@ -32,6 +32,7 @@ exports.menuMessage = () => {
 ▢ • ${PREFIX}auto-responder (1/0)
 ▢ • ${PREFIX}ban
 ▢ • ${PREFIX}hidetag
+▢ • ${PREFIX}vip
 ▢ • ${PREFIX}welcome (1/0)
 ▢
 ╰━━─「⭐」─━━
