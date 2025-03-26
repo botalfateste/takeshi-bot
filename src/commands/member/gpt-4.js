@@ -3,10 +3,10 @@ const axios = require('axios');
 const { WarningError } = require(`${BASE_DIR}/errors/WarningError`);
 
 module.exports = {
-  name: "gpt-4",
+  name: "gpt",
   description: "Obtém uma resposta do ChatGPT a partir da mensagem fornecida",
-  commands: ["gpt-4"],
-  usage: `${PREFIX}gpt-4 <pergunta>`,
+  commands: ["gpt"],
+  usage: `${PREFIX}gpt <pergunta>`,
   handle: async ({
     fullArgs,
     sendWaitReact,
@@ -19,12 +19,12 @@ module.exports = {
 
     await sendWaitReact();
 
-    const apiKey = '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'; // Substitua pela sua chave da API do ChatGPT
+    const apiKey = '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'; // Substitua pela sua chave da API do ChatGPT
     const url = 'https://api.openai.com/v1/chat/completions';
 
     try {
       const response = await axios.post(url, {
-        model: 'gpt-3.5-turbo', // ou o modelo que você deseja usar
+        model: 'gpt-4.5',
         messages: [{ role: 'user', content: fullArgs.join(' ') }]
       }, {
         headers: {
