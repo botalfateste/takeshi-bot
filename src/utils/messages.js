@@ -33,6 +33,7 @@ exports.menuMessage = () => {
 ▢ • ${PREFIX}ban
 ▢ • ${PREFIX}hidetag
 ▢ • ${PREFIX}welcome (1/0)
+▢ • ${PREFIX}vip
 ▢
 ╰━━─「⭐」─━━
 

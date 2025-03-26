@@ -24,7 +24,7 @@ module.exports = {
 
     try {
       const response = await axios.post(url, {
-        model: 'gpt-4.5',
+        model: 'gpt-3.5-turbo',
         messages: [{ role: 'user', content: fullArgs.join(' ') }]
       }, {
         headers: {
