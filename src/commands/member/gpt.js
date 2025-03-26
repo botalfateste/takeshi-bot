@@ -19,7 +19,7 @@ module.exports = {
 
     await sendWaitReact();
 
-    const apiKey = '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'; // Substitua pela sua chave da API do ChatGPT
+    const apiKey = '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'; // Substitua pela sua chave da API do ChatGPT
     const url = 'https://api.openai.com/v1/chat/completions';
 
     try {
